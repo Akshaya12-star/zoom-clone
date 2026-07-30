@@ -1,10 +1,10 @@
-Zoom Clone
+#Zoom Clone
 
 A video calling web app built with React, Vite, and Firebase — create a call, share a room ID, and join from another device or browser tab.
 
 🔗 Live Demo: https://zoom-clone-red-chi.vercel.app/
 
-Features
+#Features
 🎥 Create a new video call room
 🔑 Join an existing call using a Room ID
 🔥 Real-time signaling powered by Firebase
@@ -19,13 +19,13 @@ Node.js (v18 or higher recommended)
 A Firebase project (for backend config)
 Installation
 
-Clone the repo:
+#Clone the repo:
 
 bash
 git clone https://github.com/Akshaya12-star/zoom-clone
 cd zoom-clone/zoom-clone
 
-Install dependencies:
+#Install dependencies:
 
 bash
 npm install
@@ -41,7 +41,7 @@ npm run build
 
 This generates an optimized build in the dist/ folder.
 
-Deployment
+#Deployment
 
 This project is deployed on Vercel. When importing the repo into Vercel:
 
@@ -51,19 +51,21 @@ Output Directory: dist
 
 A vercel.json file is included to handle client-side routing (SPA rewrites).
 
-Project Structure
+## Project Structure
+
+```
 zoom-clone/
 ├── public/
 ├── src/
 │   ├── assets/
 │   ├── App.jsx
 │   ├── firebase.js
-│   ├── main.jsx
-│   └── ...
+│   └── main.jsx
 ├── index.html
 ├── package.json
 ├── vercel.json
 └── vite.config.js
-Author
+```
 
+#Author
 Akshaya GitHub
